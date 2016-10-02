@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import invariant from 'invariant'
 import { createRouteFromReactElement } from './RouteUtils'
 import { formatPattern } from './PatternUtils'
@@ -16,7 +16,7 @@ const { string, object } = React.PropTypes
 const Redirect = React.createClass({
 
   statics: {
-    
+
     createRouteFromReactElement(element) {
       const route = createRouteFromReactElement(element)
 

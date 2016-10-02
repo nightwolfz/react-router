@@ -1,5 +1,5 @@
 import invariant from 'invariant'
-import React from 'react'
+import Inferno from 'inferno'
 
 import deprecateObjectProperties from './deprecateObjectProperties'
 import getRouteParams from './getRouteParams'

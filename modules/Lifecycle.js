@@ -1,5 +1,5 @@
 import warning from './routerWarning'
-import React from 'react'
+import Inferno from 'inferno'
 import invariant from 'invariant'
 
 const { object } = React.PropTypes

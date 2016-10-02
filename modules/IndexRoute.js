@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import warning from './routerWarning'
 import invariant from 'invariant'
 import { createRouteFromReactElement } from './RouteUtils'
@@ -43,7 +43,7 @@ const IndexRoute = React.createClass({
       '<IndexRoute> elements are for router configuration only and should not be rendered'
     )
   }
-  
+
 })
 
 export default IndexRoute

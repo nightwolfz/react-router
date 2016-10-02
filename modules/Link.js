@@ -1,7 +1,7 @@
-import React from 'react'
+import Inferno from 'inferno'
 import warning from './routerWarning'
 
-const { bool, object, string, func, oneOfType } = React.PropTypes
+const { bool, object, string, func, oneOfType } = Inferno.PropTypes
 
 function isLeftClickEvent(event) {
   return event.button === 0

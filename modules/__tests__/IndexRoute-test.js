@@ -1,5 +1,6 @@
 import expect from 'expect'
-import React, { Component } from 'react'
+import Inferno from 'inferno'
+import Component from 'inferno-component'
 import { render, unmountComponentAtNode } from 'react-dom'
 import createHistory from '../createMemoryHistory'
 import IndexRoute from '../IndexRoute'

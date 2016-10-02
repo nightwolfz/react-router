@@ -1,7 +1,11 @@
 {
-  "stage": 0,
-  "loose": "all",
   "plugins": [
-    "dev-expression"
+    "dev-expression",
+    "add-module-exports",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-es2015-modules-commonjs",
+    "transform-object-rest-spread",
+    "inferno"
   ]
 }

@@ -1,6 +1,6 @@
 import createHashHistory from 'history/lib/createHashHistory'
 import useQueries from 'history/lib/useQueries'
-import React from 'react'
+import Inferno from 'inferno'
 
 import createTransitionManager from './createTransitionManager'
 import { routes } from './PropTypes'

@@ -1,5 +1,6 @@
 import expect from 'expect'
-import React, { Component } from 'react'
+import Inferno from 'inferno'
+import Component from 'inferno-component'
 import { createRoutesFromReactChildren } from '../RouteUtils'
 import IndexRoute from '../IndexRoute'
 import Route from '../Route'

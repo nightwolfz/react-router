@@ -1,5 +1,6 @@
 import expect, { spyOn } from 'expect'
-import React, { Component } from 'react'
+import Inferno from 'inferno'
+import Component from 'inferno-component'
 import { renderToStaticMarkup, renderToString } from 'react-dom/server'
 
 import createMemoryHistory from '../createMemoryHistory'

@@ -1,5 +1,6 @@
 import expect, { spyOn } from 'expect'
-import React, { Component } from 'react'
+import Inferno from 'inferno'
+import Component from 'inferno-component'
 import { Simulate } from 'react-addons-test-utils'
 import { render } from 'react-dom'
 import createHistory from '../createMemoryHistory'

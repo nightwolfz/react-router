@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import Link from './Link'
 
 /**

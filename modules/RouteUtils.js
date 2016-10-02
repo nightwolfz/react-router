@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import warning from './routerWarning'
 
 function isValidChild(object) {
@@ -52,7 +52,7 @@ export function createRouteFromReactElement(element) {
  * nested.
  *
  *   import { Route, createRoutesFromReactChildren } from 'react-router'
- *   
+ *
  *   const routes = createRoutesFromReactChildren(
  *     <Route component={App}>
  *       <Route path="home" component={Dashboard}/>

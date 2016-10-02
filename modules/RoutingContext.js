@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import RouterContext from './RouterContext'
 import warning from './routerWarning'
 

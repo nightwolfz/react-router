@@ -1,4 +1,4 @@
-import React from 'react'
+import Inferno from 'inferno'
 import warning from './routerWarning'
 import invariant from 'invariant'
 import Redirect from './Redirect'

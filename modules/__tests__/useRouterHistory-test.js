@@ -1,6 +1,6 @@
 import assert from 'assert'
 import expect from 'expect'
-import React from 'react'
+import Inferno from 'inferno'
 import { render, unmountComponentAtNode } from 'react-dom'
 import useRouterHistory from '../useRouterHistory'
 import createHistory from 'history/lib/createMemoryHistory'

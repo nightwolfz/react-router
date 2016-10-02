@@ -1,5 +1,5 @@
 import expect from 'expect'
-import React from 'react'
+import Inferno from 'inferno'
 import { createMemoryHistory } from 'history'
 import { createRoutes } from '../RouteUtils'
 import matchRoutes from '../matchRoutes'
